@@ -3,6 +3,14 @@
   
     
     <entry>
+      <title><![CDATA[123]]></title>
+      <url>/2017/10/17/123/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[网络爬虫]]></title>
       <url>/2017/10/17/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/</url>
       <content type="html"></content>
@@ -76,9 +84,10 @@ hexo s -g         #生成并本地预览
 hexo d -g         #生成并上传
 
 
+11、最后了
+  在域名云解析的地方，添加个cname 记录，网址即为你的github仓库网址（例如username.github.io.git）；       在你的github仓库code根目录那里新建一个cname文件（无后缀名），内容为你的域名。11、最后了      在域名云解析的地方，添加个cname 记录，网址即为你的github仓库网址（例如username.github.io.git）；      在你的github仓库code根目录那里新建一个cname文件（无后缀名），内容为你的域名。
 以上。
-</code></pre><p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</p>
-]]></content>
+</code></pre>]]></content>
       
         
     </entry>
