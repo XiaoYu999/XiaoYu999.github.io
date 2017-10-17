@@ -381,7 +381,6 @@ body {
   font-size: 15px;
   line-height: 1.6;
   background-color: #fff;
-  word-break: break-all;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 body.menu-open {
@@ -1488,7 +1487,8 @@ footer .copyright {
   border-bottom: none; }
 
 .resume-content blockquote {
-  margin: 0.5em 0; }
+  margin: 0.5em 0;
+  word-break: break-all; }
 
 .resume-content ul {
   margin: 0.2em 0;
