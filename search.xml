@@ -76,8 +76,6 @@ hexo s -g         #生成并本地预览
 hexo d -g         #生成并上传
 
 
-11、最后了
-  在域名云解析的地方，添加个cname 记录，网址即为你的github仓库网址（例如username.github.io.git）；       在你的github仓库code根目录那里新建一个cname文件（无后缀名），内容为你的域名。11、最后了      在域名云解析的地方，添加个cname 记录，网址即为你的github仓库网址（例如username.github.io.git）；      在你的github仓库code根目录那里新建一个cname文件（无后缀名），内容为你的域名。
 以上。
 </code></pre>]]></content>
       
