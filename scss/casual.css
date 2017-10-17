@@ -981,7 +981,9 @@ img.bgimage {
 code,
 pre {
   background-color: #f6f6f6;
-  font-family: Consolas,Lato,'Helvetica Neue',Arial,Helvetica,sans-serif; }
+  font-family: Consolas,Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  word-wrap: break-word;
+  white-space: normal; }
 
 .highlight {
   position: relative;
