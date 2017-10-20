@@ -15,7 +15,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/10/13/使用hexo搭建私人博客/index.html">
 <meta property="og:site_name" content="XiaoYu&#39;s blog">
 <meta property="og:description" content="使用 hexo 和 github 搭建属于自己的私人博客（本博客即通过以下操作完成）：    操作系统：ubuntu 16.04 lts    （windows下与此类似）    1、 git ：     在安装之前，可以使用命令 ： git --version 来检查一下计算机内是否已经安装 git ，如果没有安装，则使用命令 sudo apt-get install git 安装;     喝">
-<meta property="og:updated_time" content="2017-10-17T11:03:50.607Z">
+<meta property="og:updated_time" content="2017-10-20T12:34:14.074Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用hexo搭建私人博客">
 <meta name="twitter:description" content="使用 hexo 和 github 搭建属于自己的私人博客（本博客即通过以下操作完成）：    操作系统：ubuntu 16.04 lts    （windows下与此类似）    1、 git ：     在安装之前，可以使用命令 ： git --version 来检查一下计算机内是否已经安装 git ，如果没有安装，则使用命令 sudo apt-get install git 安装;     喝">
@@ -152,19 +152,20 @@ var themeMenus = {};
   喝口水，git 安装完毕之后，使用如下命令进行配置：  
     git config --global user.name &quot;username&quot;  
     git config --global user.email &quot;youremail&quot;  
-  如果没有进行这项操作，那么最后会出现问题的。  
+  如果没有进行这项操作，那么最后会出现问题的。
 2、 nodejs 与 npm ：  
   ubuntu apt源貌似有问题，之前使用 apt-get install 安装完毕后续操作会报错，所以在一位学长的精心提醒下，改为下载 node官网包，解压缩后安装这两个软体;  
   安装完毕分别使用命令 npm -v 与 nodejs -v 检查安装情况;若返回版本号，则表示安装成功。  
 3、 hexo  
-  终于到hexo了，使用如下命令安装它即可： npm i -g hexo ;     
+  终于到hexo了，使用如下命令安装它即可： npm i -g hexo ;
 4、 在磁盘上找一个空闲的地，使用命令 hexo init [folder]  (假设建立的文件夹名为[folder])。hexo 会建立一个[folder]文件夹，cd [folder] 进入该文件夹；  
 若没有这步操作，则默认在当前文件夹建立网站，进行后续操作。  
 5、 本地测试生成的网站  
- 使用命令 hexo s -g 即可；（为 hexo g , hexo s 两命令缩写;前一个命令操作为生成站点，后一命令操作为启动本地服务器）打开链接即为刚生成的页面。  
+ 使用命令 hexo s -g 即可；（为 hexo g , hexo s 两命令缩写;前一个命令操作为生成站点，后一命令操作为启动本地服务器）打开链接即为刚生成的页面。
+&lt;!more&gt;
 6、 软体安装完毕，接下来开始建立 github 仓库（前提是你得有github帐号，否则怎么登录？！没有的话赶紧去官网 github.com 注册一个咯！）  
-  登录到 github ，一定要以 username.github.io 为仓库名，建立仓库，否则后续会出现问题！！！      
-7、 配置ssh keys（github页面上）  
+  登录到 github ，一定要以 username.github.io 为仓库名，建立仓库，否则后续会出现问题！！！    
+7、 配置ssh keys（github页面上）
  在 settings 中打开 SSH and GPG keys，new 一个 ssh key。在下面的输入框中填写的你本机的ssh公钥  
  使用命令 ssh-keygen -t rsa -C &quot;youremail&quot; 生成你的本机公钥，在你的用户目录下找到.ssh目录中的id_rsa.pub的内容，也就是你本机ssh公钥，然后点击添加。  
  可以使用 cat id_rsa.pub 查看其中的内容。把其中的内容复制到输入框中即可。使用命令 ssh -T git@github.com 验证是否成功。  
@@ -257,20 +258,6 @@ var a = new Donate({
   </div>
   
     
-<nav id="article-nav">
-  
-    <a href="/2017/10/17/网络爬虫/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Neuer</strong>
-      <div class="article-nav-title">
-        
-          网络爬虫
-        
-      </div>
-    </a>
-  
-  
-</nav>
-
   
 </article>
 

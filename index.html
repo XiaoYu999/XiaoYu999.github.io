@@ -113,47 +113,6 @@ var themeMenus = {};
         
           <section id="main">
   
-    <article id="post-网络爬虫"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2017/10/17/网络爬虫/">网络爬虫</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	Posted on <a href="/2017/10/17/网络爬虫/" class="article-date">
-	  <time datetime="2017-10-16T20:36:15.000Z" itemprop="datePublished">October 17, 2017</time>
-	</a>
-
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-      
-      
-            
-      
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
     <article id="post-使用hexo搭建私人博客"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
@@ -187,19 +146,20 @@ var themeMenus = {};
   喝口水，git 安装完毕之后，使用如下命令进行配置：  
     git config --global user.name &quot;username&quot;  
     git config --global user.email &quot;youremail&quot;  
-  如果没有进行这项操作，那么最后会出现问题的。  
+  如果没有进行这项操作，那么最后会出现问题的。
 2、 nodejs 与 npm ：  
   ubuntu apt源貌似有问题，之前使用 apt-get install 安装完毕后续操作会报错，所以在一位学长的精心提醒下，改为下载 node官网包，解压缩后安装这两个软体;  
   安装完毕分别使用命令 npm -v 与 nodejs -v 检查安装情况;若返回版本号，则表示安装成功。  
 3、 hexo  
-  终于到hexo了，使用如下命令安装它即可： npm i -g hexo ;     
+  终于到hexo了，使用如下命令安装它即可： npm i -g hexo ;
 4、 在磁盘上找一个空闲的地，使用命令 hexo init [folder]  (假设建立的文件夹名为[folder])。hexo 会建立一个[folder]文件夹，cd [folder] 进入该文件夹；  
 若没有这步操作，则默认在当前文件夹建立网站，进行后续操作。  
 5、 本地测试生成的网站  
- 使用命令 hexo s -g 即可；（为 hexo g , hexo s 两命令缩写;前一个命令操作为生成站点，后一命令操作为启动本地服务器）打开链接即为刚生成的页面。  
+ 使用命令 hexo s -g 即可；（为 hexo g , hexo s 两命令缩写;前一个命令操作为生成站点，后一命令操作为启动本地服务器）打开链接即为刚生成的页面。
+&lt;!more&gt;
 6、 软体安装完毕，接下来开始建立 github 仓库（前提是你得有github帐号，否则怎么登录？！没有的话赶紧去官网 github.com 注册一个咯！）  
-  登录到 github ，一定要以 username.github.io 为仓库名，建立仓库，否则后续会出现问题！！！      
-7、 配置ssh keys（github页面上）  
+  登录到 github ，一定要以 username.github.io 为仓库名，建立仓库，否则后续会出现问题！！！    
+7、 配置ssh keys（github页面上）
  在 settings 中打开 SSH and GPG keys，new 一个 ssh key。在下面的输入框中填写的你本机的ssh公钥  
  使用命令 ssh-keygen -t rsa -C &quot;youremail&quot; 生成你的本机公钥，在你的用户目录下找到.ssh目录中的id_rsa.pub的内容，也就是你本机ssh公钥，然后点击添加。  
  可以使用 cat id_rsa.pub 查看其中的内容。把其中的内容复制到输入框中即可。使用命令 ssh -T git@github.com 验证是否成功。  
@@ -315,15 +275,7 @@ hexo d -g         #生成并上传
     	<ul class="clearfix widget-social-icons">   
     	
           
-     			  <li><a href="https://github.com/iTimeTraveler" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href="http://www.yoursite.com" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href="" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
+     			  <li><a href="https://github.com/xiaoyu999" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
           
    		
           
@@ -331,23 +283,7 @@ hexo d -g         #生成并上传
           
    		
           
-     			  <li><a href="" title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href="" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href="" title="Flickr"><i class="fa fa-flickr" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-            <li><a href="mailto:?subject=请联系我&body=我能帮你什么" title="email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
+            <li><a href="mailto:1329744749@qq.com?subject=请联系我&body=我能帮你什么" title="email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
           
    		
    		</ul>
@@ -382,18 +318,6 @@ hexo d -g         #生成并上传
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2017/10/17/网络爬虫/">网络爬虫</a></h6>
-              <span>October 17, 2017</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
               <h6 style="margin: 0;"><a href="/2017/10/13/使用hexo搭建私人博客/">使用hexo搭建私人博客</a></h6>
               <span>October 13, 2017</span>
             </div>
@@ -418,7 +342,7 @@ hexo d -g         #生成并上传
     <h3 class="widget-title">Archiv</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
